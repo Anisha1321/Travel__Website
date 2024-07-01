@@ -11,6 +11,40 @@
     perspective: 10px;
 }
 
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    background-color: #20497f;
+}
+.items{
+    margin: 1.5rem;
+    display: flex;
+    gap: 42rem;
+    flex: 1;
+}
+
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.left>ul:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+.right{
+    display: flex;
+    gap: 3rem;
+}
+.right>ul:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
 .container{
     position: relative;
     display: flex;
@@ -39,7 +73,7 @@
 }
 .title{
     position: absolute;
-    font-size: 10rem;
+    font-size: 7rem;
     top: 5rem;    
     letter-spacing: 5px;
     color: white;
